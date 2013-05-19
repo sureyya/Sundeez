@@ -1,14 +1,19 @@
 ﻿body {
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
-    color: #232323;
-    background-color: #fff;
 }
 
 header, footer, nav, section {
     display: block;
 }
 
+html { 
+  background: url(Images/P2230362.jpg) no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /* Styles for basic forms
 -----------------------------------------------------------*/
