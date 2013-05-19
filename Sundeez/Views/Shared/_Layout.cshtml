@@ -6,11 +6,25 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+   
+   
+  
 </head>
 <body>
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
+    <script type="text/javascript">
+          (function () {
+
+              $(document).ready(function () {
+                  return $('body').stratus({
+                      links: 'http://soundcloud.com/sundeez/sundeez-rabbab-live-in'
+                  });
+              });
+          }).call(this);
+    </script>
 </body>
 </html>
